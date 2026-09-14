@@ -1,0 +1,6011 @@
+{
+  "file_name": "model_info.json",
+  "artifact_type": "model_info",
+  "model_name": "efficientnet_b0",
+  "class_name": "EfficientNet",
+  "model_family": "efficientnet_2d",
+  "origin": "torchvision, ImageNet-pretrained backbone + custom classifier head",
+  "source_module": "src/model.py",
+  "task_type": "classification",
+  "representation": "2d",
+  "weight_strategy": "pretrained_finetune",
+  "weights": "IMAGENET1K_V1",
+  "input_size": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "total_parameters": 4012672,
+  "trainable_parameters": 4012672,
+  "non_trainable_parameters": 0,
+  "total_mult_adds": 384591232,
+  "estimated_input_size_mb": 0.602168,
+  "estimated_forward_backward_size_mb": 107.877888,
+  "estimated_parameter_size_mb": 16.050688,
+  "estimated_total_size_mb": 124.530744,
+  "torch_version": "2.13.0+cu130",
+  "torchvision_version": "0.28.0+cu130",
+  "torchinfo_version": "1.8.0",
+  "architecture": [
+    "=========================================================================================================",
+    "Layer (type:depth-idx)                                  Output Shape              Param #",
+    "=========================================================================================================",
+    "EfficientNet                                            [1, 4]                    --",
+    "├─Sequential: 1-1                                       [1, 1280, 7, 7]           --",
+    "│    └─Conv2dNormActivation: 2-1                        [1, 32, 112, 112]         --",
+    "│    │    └─Conv2d: 3-1                                 [1, 32, 112, 112]         864",
+    "│    │    └─BatchNorm2d: 3-2                            [1, 32, 112, 112]         64",
+    "│    │    └─SiLU: 3-3                                   [1, 32, 112, 112]         --",
+    "│    └─Sequential: 2-2                                  [1, 16, 112, 112]         --",
+    "│    │    └─MBConv: 3-4                                 [1, 16, 112, 112]         1,448",
+    "│    └─Sequential: 2-3                                  [1, 24, 56, 56]           --",
+    "│    │    └─MBConv: 3-5                                 [1, 24, 56, 56]           6,004",
+    "│    │    └─MBConv: 3-6                                 [1, 24, 56, 56]           10,710",
+    "│    └─Sequential: 2-4                                  [1, 40, 28, 28]           --",
+    "│    │    └─MBConv: 3-7                                 [1, 40, 28, 28]           15,350",
+    "│    │    └─MBConv: 3-8                                 [1, 40, 28, 28]           31,290",
+    "│    └─Sequential: 2-5                                  [1, 80, 14, 14]           --",
+    "│    │    └─MBConv: 3-9                                 [1, 80, 14, 14]           37,130",
+    "│    │    └─MBConv: 3-10                                [1, 80, 14, 14]           102,900",
+    "│    │    └─MBConv: 3-11                                [1, 80, 14, 14]           102,900",
+    "│    └─Sequential: 2-6                                  [1, 112, 14, 14]          --",
+    "│    │    └─MBConv: 3-12                                [1, 112, 14, 14]          126,004",
+    "│    │    └─MBConv: 3-13                                [1, 112, 14, 14]          208,572",
+    "│    │    └─MBConv: 3-14                                [1, 112, 14, 14]          208,572",
+    "│    └─Sequential: 2-7                                  [1, 192, 7, 7]            --",
+    "│    │    └─MBConv: 3-15                                [1, 192, 7, 7]            262,492",
+    "│    │    └─MBConv: 3-16                                [1, 192, 7, 7]            587,952",
+    "│    │    └─MBConv: 3-17                                [1, 192, 7, 7]            587,952",
+    "│    │    └─MBConv: 3-18                                [1, 192, 7, 7]            587,952",
+    "│    └─Sequential: 2-8                                  [1, 320, 7, 7]            --",
+    "│    │    └─MBConv: 3-19                                [1, 320, 7, 7]            717,232",
+    "│    └─Conv2dNormActivation: 2-9                        [1, 1280, 7, 7]           --",
+    "│    │    └─Conv2d: 3-20                                [1, 1280, 7, 7]           409,600",
+    "│    │    └─BatchNorm2d: 3-21                           [1, 1280, 7, 7]           2,560",
+    "│    │    └─SiLU: 3-22                                  [1, 1280, 7, 7]           --",
+    "├─AdaptiveAvgPool2d: 1-2                                [1, 1280, 1, 1]           --",
+    "├─Sequential: 1-3                                       [1, 4]                    --",
+    "│    └─Dropout: 2-10                                    [1, 1280]                 --",
+    "│    └─Linear: 2-11                                     [1, 4]                    5,124",
+    "=========================================================================================================",
+    "Total params: 4,012,672",
+    "Trainable params: 4,012,672",
+    "Non-trainable params: 0",
+    "Total mult-adds (Units.MEGABYTES): 384.59",
+    "=========================================================================================================",
+    "Input size (MB): 0.60",
+    "Forward/backward pass size (MB): 107.88",
+    "Params size (MB): 16.05",
+    "Estimated Total Size (MB): 124.53",
+    "========================================================================================================="
+  ],
+  "layers": [
+    {
+      "name": "EfficientNet",
+      "class_name": "EfficientNet",
+      "input_size": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "output_size": [
+        1,
+        4
+      ],
+      "num_parameters": 4012672,
+      "trainable": true
+    },
+    {
+      "name": "features",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "output_size": [
+        1,
+        1280,
+        7,
+        7
+      ],
+      "num_parameters": 4007548,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "output_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "num_parameters": 928,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "output_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "num_parameters": 864,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "num_parameters": 64,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        16,
+        112,
+        112
+      ],
+      "num_parameters": 1448,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "MBConv",
+      "input_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        16,
+        112,
+        112
+      ],
+      "num_parameters": 1448,
+      "trainable": true
+    },
+    {
+      "name": "block",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        16,
+        112,
+        112
+      ],
+      "num_parameters": 1448,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "num_parameters": 352,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "num_parameters": 288,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "num_parameters": 64,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "SqueezeExcitation",
+      "input_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "num_parameters": 552,
+      "trainable": true
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        32,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc1",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        32,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        8,
+        1,
+        1
+      ],
+      "num_parameters": 264,
+      "trainable": true
+    },
+    {
+      "name": "activation",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        8,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        8,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc2",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        8,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        32,
+        1,
+        1
+      ],
+      "num_parameters": 288,
+      "trainable": true
+    },
+    {
+      "name": "scale_activation",
+      "class_name": "Sigmoid",
+      "input_size": [
+        1,
+        32,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        32,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        16,
+        112,
+        112
+      ],
+      "num_parameters": 544,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        32,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        16,
+        112,
+        112
+      ],
+      "num_parameters": 512,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        16,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        16,
+        112,
+        112
+      ],
+      "num_parameters": 32,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        16,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "num_parameters": 16714,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "MBConv",
+      "input_size": [
+        1,
+        16,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "num_parameters": 6004,
+      "trainable": true
+    },
+    {
+      "name": "block",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        16,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "num_parameters": 6004,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        16,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        96,
+        112,
+        112
+      ],
+      "num_parameters": 1728,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        16,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        96,
+        112,
+        112
+      ],
+      "num_parameters": 1536,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        96,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        96,
+        112,
+        112
+      ],
+      "num_parameters": 192,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        96,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        96,
+        112,
+        112
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        96,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        96,
+        56,
+        56
+      ],
+      "num_parameters": 1056,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        96,
+        112,
+        112
+      ],
+      "output_size": [
+        1,
+        96,
+        56,
+        56
+      ],
+      "num_parameters": 864,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        96,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        96,
+        56,
+        56
+      ],
+      "num_parameters": 192,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        96,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        96,
+        56,
+        56
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "SqueezeExcitation",
+      "input_size": [
+        1,
+        96,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        96,
+        56,
+        56
+      ],
+      "num_parameters": 868,
+      "trainable": true
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        96,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc1",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        4,
+        1,
+        1
+      ],
+      "num_parameters": 388,
+      "trainable": true
+    },
+    {
+      "name": "activation",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        4,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        4,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc2",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        4,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "num_parameters": 480,
+      "trainable": true
+    },
+    {
+      "name": "scale_activation",
+      "class_name": "Sigmoid",
+      "input_size": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        96,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        96,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "num_parameters": 2352,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        96,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "num_parameters": 2304,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "num_parameters": 48,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "MBConv",
+      "input_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "num_parameters": 10710,
+      "trainable": true
+    },
+    {
+      "name": "block",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "num_parameters": 10710,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "num_parameters": 3744,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "num_parameters": 3456,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "num_parameters": 288,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "num_parameters": 1584,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "num_parameters": 1296,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "num_parameters": 288,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "SqueezeExcitation",
+      "input_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "num_parameters": 1878,
+      "trainable": true
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        144,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc1",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        144,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        6,
+        1,
+        1
+      ],
+      "num_parameters": 870,
+      "trainable": true
+    },
+    {
+      "name": "activation",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        6,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        6,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc2",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        6,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        144,
+        1,
+        1
+      ],
+      "num_parameters": 1008,
+      "trainable": true
+    },
+    {
+      "name": "scale_activation",
+      "class_name": "Sigmoid",
+      "input_size": [
+        1,
+        144,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        144,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "num_parameters": 3504,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "num_parameters": 3456,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "num_parameters": 48,
+      "trainable": true
+    },
+    {
+      "name": "stochastic_depth",
+      "class_name": "StochasticDepth",
+      "input_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "num_parameters": 46640,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "MBConv",
+      "input_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "num_parameters": 15350,
+      "trainable": true
+    },
+    {
+      "name": "block",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "num_parameters": 15350,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "num_parameters": 3744,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        24,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "num_parameters": 3456,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "num_parameters": 288,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        144,
+        28,
+        28
+      ],
+      "num_parameters": 3888,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        144,
+        56,
+        56
+      ],
+      "output_size": [
+        1,
+        144,
+        28,
+        28
+      ],
+      "num_parameters": 3600,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        144,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        144,
+        28,
+        28
+      ],
+      "num_parameters": 288,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        144,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        144,
+        28,
+        28
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "SqueezeExcitation",
+      "input_size": [
+        1,
+        144,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        144,
+        28,
+        28
+      ],
+      "num_parameters": 1878,
+      "trainable": true
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        144,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        144,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc1",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        144,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        6,
+        1,
+        1
+      ],
+      "num_parameters": 870,
+      "trainable": true
+    },
+    {
+      "name": "activation",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        6,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        6,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc2",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        6,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        144,
+        1,
+        1
+      ],
+      "num_parameters": 1008,
+      "trainable": true
+    },
+    {
+      "name": "scale_activation",
+      "class_name": "Sigmoid",
+      "input_size": [
+        1,
+        144,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        144,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        144,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "num_parameters": 5840,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        144,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "num_parameters": 5760,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "num_parameters": 80,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "MBConv",
+      "input_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "num_parameters": 31290,
+      "trainable": true
+    },
+    {
+      "name": "block",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "num_parameters": 31290,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "num_parameters": 10080,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "num_parameters": 9600,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "num_parameters": 480,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "num_parameters": 6480,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "num_parameters": 6000,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "num_parameters": 480,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "SqueezeExcitation",
+      "input_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "num_parameters": 5050,
+      "trainable": true
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        240,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc1",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        240,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        10,
+        1,
+        1
+      ],
+      "num_parameters": 2410,
+      "trainable": true
+    },
+    {
+      "name": "activation",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        10,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        10,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc2",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        10,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        240,
+        1,
+        1
+      ],
+      "num_parameters": 2640,
+      "trainable": true
+    },
+    {
+      "name": "scale_activation",
+      "class_name": "Sigmoid",
+      "input_size": [
+        1,
+        240,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        240,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "num_parameters": 9680,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "num_parameters": 9600,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "num_parameters": 80,
+      "trainable": true
+    },
+    {
+      "name": "stochastic_depth",
+      "class_name": "StochasticDepth",
+      "input_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "4",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 242930,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "MBConv",
+      "input_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 37130,
+      "trainable": true
+    },
+    {
+      "name": "block",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 37130,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "num_parameters": 10080,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        40,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "num_parameters": 9600,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "num_parameters": 480,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        240,
+        14,
+        14
+      ],
+      "num_parameters": 2640,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        240,
+        28,
+        28
+      ],
+      "output_size": [
+        1,
+        240,
+        14,
+        14
+      ],
+      "num_parameters": 2160,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        240,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        240,
+        14,
+        14
+      ],
+      "num_parameters": 480,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        240,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        240,
+        14,
+        14
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "SqueezeExcitation",
+      "input_size": [
+        1,
+        240,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        240,
+        14,
+        14
+      ],
+      "num_parameters": 5050,
+      "trainable": true
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        240,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        240,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc1",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        240,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        10,
+        1,
+        1
+      ],
+      "num_parameters": 2410,
+      "trainable": true
+    },
+    {
+      "name": "activation",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        10,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        10,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc2",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        10,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        240,
+        1,
+        1
+      ],
+      "num_parameters": 2640,
+      "trainable": true
+    },
+    {
+      "name": "scale_activation",
+      "class_name": "Sigmoid",
+      "input_size": [
+        1,
+        240,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        240,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        240,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 19360,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        240,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 19200,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 160,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "MBConv",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 102900,
+      "trainable": true
+    },
+    {
+      "name": "block",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 102900,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 39360,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 38400,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 960,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 5280,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 4320,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 960,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "SqueezeExcitation",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 19700,
+      "trainable": true
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc1",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        480,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        20,
+        1,
+        1
+      ],
+      "num_parameters": 9620,
+      "trainable": true
+    },
+    {
+      "name": "activation",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        20,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        20,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc2",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        20,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        480,
+        1,
+        1
+      ],
+      "num_parameters": 10080,
+      "trainable": true
+    },
+    {
+      "name": "scale_activation",
+      "class_name": "Sigmoid",
+      "input_size": [
+        1,
+        480,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        480,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 38560,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 38400,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 160,
+      "trainable": true
+    },
+    {
+      "name": "stochastic_depth",
+      "class_name": "StochasticDepth",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "MBConv",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 102900,
+      "trainable": true
+    },
+    {
+      "name": "block",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 102900,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 39360,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 38400,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 960,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 5280,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 4320,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 960,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "SqueezeExcitation",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 19700,
+      "trainable": true
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc1",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        480,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        20,
+        1,
+        1
+      ],
+      "num_parameters": 9620,
+      "trainable": true
+    },
+    {
+      "name": "activation",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        20,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        20,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc2",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        20,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        480,
+        1,
+        1
+      ],
+      "num_parameters": 10080,
+      "trainable": true
+    },
+    {
+      "name": "scale_activation",
+      "class_name": "Sigmoid",
+      "input_size": [
+        1,
+        480,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        480,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 38560,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 38400,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 160,
+      "trainable": true
+    },
+    {
+      "name": "stochastic_depth",
+      "class_name": "StochasticDepth",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "5",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 543148,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "MBConv",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 126004,
+      "trainable": true
+    },
+    {
+      "name": "block",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 126004,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 39360,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        80,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 38400,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 960,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 12960,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 12000,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 960,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "SqueezeExcitation",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "num_parameters": 19700,
+      "trainable": true
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        480,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc1",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        480,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        20,
+        1,
+        1
+      ],
+      "num_parameters": 9620,
+      "trainable": true
+    },
+    {
+      "name": "activation",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        20,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        20,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc2",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        20,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        480,
+        1,
+        1
+      ],
+      "num_parameters": 10080,
+      "trainable": true
+    },
+    {
+      "name": "scale_activation",
+      "class_name": "Sigmoid",
+      "input_size": [
+        1,
+        480,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        480,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 53984,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        480,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 53760,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 224,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "MBConv",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 208572,
+      "trainable": true
+    },
+    {
+      "name": "block",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 208572,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 76608,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 75264,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 1344,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 18144,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 16800,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 1344,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "SqueezeExcitation",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 38332,
+      "trainable": true
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc1",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        672,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "num_parameters": 18844,
+      "trainable": true
+    },
+    {
+      "name": "activation",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc2",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        672,
+        1,
+        1
+      ],
+      "num_parameters": 19488,
+      "trainable": true
+    },
+    {
+      "name": "scale_activation",
+      "class_name": "Sigmoid",
+      "input_size": [
+        1,
+        672,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        672,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 75488,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 75264,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 224,
+      "trainable": true
+    },
+    {
+      "name": "stochastic_depth",
+      "class_name": "StochasticDepth",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "MBConv",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 208572,
+      "trainable": true
+    },
+    {
+      "name": "block",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 208572,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 76608,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 75264,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 1344,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 18144,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 16800,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 1344,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "SqueezeExcitation",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 38332,
+      "trainable": true
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc1",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        672,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "num_parameters": 18844,
+      "trainable": true
+    },
+    {
+      "name": "activation",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc2",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        672,
+        1,
+        1
+      ],
+      "num_parameters": 19488,
+      "trainable": true
+    },
+    {
+      "name": "scale_activation",
+      "class_name": "Sigmoid",
+      "input_size": [
+        1,
+        672,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        672,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 75488,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 75264,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 224,
+      "trainable": true
+    },
+    {
+      "name": "stochastic_depth",
+      "class_name": "StochasticDepth",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "6",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 2026348,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "MBConv",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 262492,
+      "trainable": true
+    },
+    {
+      "name": "block",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 262492,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 76608,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        112,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 75264,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 1344,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        7,
+        7
+      ],
+      "num_parameters": 18144,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        672,
+        14,
+        14
+      ],
+      "output_size": [
+        1,
+        672,
+        7,
+        7
+      ],
+      "num_parameters": 16800,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        672,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        672,
+        7,
+        7
+      ],
+      "num_parameters": 1344,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        672,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        672,
+        7,
+        7
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "SqueezeExcitation",
+      "input_size": [
+        1,
+        672,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        672,
+        7,
+        7
+      ],
+      "num_parameters": 38332,
+      "trainable": true
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        672,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        672,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc1",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        672,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "num_parameters": 18844,
+      "trainable": true
+    },
+    {
+      "name": "activation",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc2",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        672,
+        1,
+        1
+      ],
+      "num_parameters": 19488,
+      "trainable": true
+    },
+    {
+      "name": "scale_activation",
+      "class_name": "Sigmoid",
+      "input_size": [
+        1,
+        672,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        672,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        672,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 129408,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        672,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 129024,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 384,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "MBConv",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 587952,
+      "trainable": true
+    },
+    {
+      "name": "block",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 587952,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 223488,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 221184,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 2304,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 31104,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 28800,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 2304,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "SqueezeExcitation",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 111792,
+      "trainable": true
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc1",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        48,
+        1,
+        1
+      ],
+      "num_parameters": 55344,
+      "trainable": true
+    },
+    {
+      "name": "activation",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        48,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        48,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc2",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        48,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "num_parameters": 56448,
+      "trainable": true
+    },
+    {
+      "name": "scale_activation",
+      "class_name": "Sigmoid",
+      "input_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 221568,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 221184,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 384,
+      "trainable": true
+    },
+    {
+      "name": "stochastic_depth",
+      "class_name": "StochasticDepth",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "MBConv",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 587952,
+      "trainable": true
+    },
+    {
+      "name": "block",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 587952,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 223488,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 221184,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 2304,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 31104,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 28800,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 2304,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "SqueezeExcitation",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 111792,
+      "trainable": true
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc1",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        48,
+        1,
+        1
+      ],
+      "num_parameters": 55344,
+      "trainable": true
+    },
+    {
+      "name": "activation",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        48,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        48,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc2",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        48,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "num_parameters": 56448,
+      "trainable": true
+    },
+    {
+      "name": "scale_activation",
+      "class_name": "Sigmoid",
+      "input_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 221568,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 221184,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 384,
+      "trainable": true
+    },
+    {
+      "name": "stochastic_depth",
+      "class_name": "StochasticDepth",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "MBConv",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 587952,
+      "trainable": true
+    },
+    {
+      "name": "block",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 587952,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 223488,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 221184,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 2304,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 31104,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 28800,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 2304,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "SqueezeExcitation",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 111792,
+      "trainable": true
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc1",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        48,
+        1,
+        1
+      ],
+      "num_parameters": 55344,
+      "trainable": true
+    },
+    {
+      "name": "activation",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        48,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        48,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc2",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        48,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "num_parameters": 56448,
+      "trainable": true
+    },
+    {
+      "name": "scale_activation",
+      "class_name": "Sigmoid",
+      "input_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 221568,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 221184,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 384,
+      "trainable": true
+    },
+    {
+      "name": "stochastic_depth",
+      "class_name": "StochasticDepth",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "7",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        320,
+        7,
+        7
+      ],
+      "num_parameters": 717232,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "MBConv",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        320,
+        7,
+        7
+      ],
+      "num_parameters": 717232,
+      "trainable": true
+    },
+    {
+      "name": "block",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        320,
+        7,
+        7
+      ],
+      "num_parameters": 717232,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 223488,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        192,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 221184,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 2304,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 12672,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 10368,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 2304,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "2",
+      "class_name": "SqueezeExcitation",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "num_parameters": 111792,
+      "trainable": true
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc1",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        48,
+        1,
+        1
+      ],
+      "num_parameters": 55344,
+      "trainable": true
+    },
+    {
+      "name": "activation",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        48,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        48,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "fc2",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        48,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "num_parameters": 56448,
+      "trainable": true
+    },
+    {
+      "name": "scale_activation",
+      "class_name": "Sigmoid",
+      "input_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "output_size": [
+        1,
+        1152,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "3",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        320,
+        7,
+        7
+      ],
+      "num_parameters": 369280,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        1152,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        320,
+        7,
+        7
+      ],
+      "num_parameters": 368640,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        320,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        320,
+        7,
+        7
+      ],
+      "num_parameters": 640,
+      "trainable": true
+    },
+    {
+      "name": "8",
+      "class_name": "Conv2dNormActivation",
+      "input_size": [
+        1,
+        320,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1280,
+        7,
+        7
+      ],
+      "num_parameters": 412160,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Conv2d",
+      "input_size": [
+        1,
+        320,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1280,
+        7,
+        7
+      ],
+      "num_parameters": 409600,
+      "trainable": true
+    },
+    {
+      "name": "1",
+      "class_name": "BatchNorm2d",
+      "input_size": [
+        1,
+        1280,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1280,
+        7,
+        7
+      ],
+      "num_parameters": 2560,
+      "trainable": true
+    },
+    {
+      "name": "2",
+      "class_name": "SiLU",
+      "input_size": [
+        1,
+        1280,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1280,
+        7,
+        7
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "avgpool",
+      "class_name": "AdaptiveAvgPool2d",
+      "input_size": [
+        1,
+        1280,
+        7,
+        7
+      ],
+      "output_size": [
+        1,
+        1280,
+        1,
+        1
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "classifier",
+      "class_name": "Sequential",
+      "input_size": [
+        1,
+        1280
+      ],
+      "output_size": [
+        1,
+        4
+      ],
+      "num_parameters": 5124,
+      "trainable": true
+    },
+    {
+      "name": "0",
+      "class_name": "Dropout",
+      "input_size": [
+        1,
+        1280
+      ],
+      "output_size": [
+        1,
+        1280
+      ],
+      "num_parameters": 0,
+      "trainable": false
+    },
+    {
+      "name": "1",
+      "class_name": "Linear",
+      "input_size": [
+        1,
+        1280
+      ],
+      "output_size": [
+        1,
+        4
+      ],
+      "num_parameters": 5124,
+      "trainable": true
+    }
+  ]
+}

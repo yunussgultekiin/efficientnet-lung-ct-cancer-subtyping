@@ -1,0 +1,660 @@
+file_id,relative_path,class_name,cluster_id,fold
+0,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000000 (6).png,adenocarcinoma,0,3
+1,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000005 (3).png,adenocarcinoma,1,1
+2,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000005 (9).png,adenocarcinoma,2,2
+3,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000008 (10).png,adenocarcinoma,3,4
+5,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000009 (7).png,adenocarcinoma,5,3
+7,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000013 (8).png,adenocarcinoma,7,0
+8,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000014 (7).png,adenocarcinoma,8,0
+9,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000015 (10).png,adenocarcinoma,9,3
+10,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000015 (4).png,adenocarcinoma,10,0
+11,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000015 (9).png,adenocarcinoma,11,3
+12,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000016 (9).png,adenocarcinoma,12,3
+13,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000017 (6).png,adenocarcinoma,13,2
+14,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000017 (8).png,adenocarcinoma,14,2
+15,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000018 (5).png,adenocarcinoma,15,1
+17,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000020 (10).png,adenocarcinoma,17,4
+18,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000020 (5).png,adenocarcinoma,18,2
+19,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000020 (6).png,adenocarcinoma,19,0
+20,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000021 (3).png,adenocarcinoma,20,4
+21,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000021 (4).png,adenocarcinoma,21,1
+23,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000021 (6).png,adenocarcinoma,23,0
+24,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000021 (8).png,adenocarcinoma,24,4
+25,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000022 (10).png,adenocarcinoma,25,0
+26,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000022 (2).png,adenocarcinoma,26,0
+27,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000022 (8).png,adenocarcinoma,27,2
+30,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000023 (10).png,adenocarcinoma,30,2
+31,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000023 (5).png,adenocarcinoma,31,3
+32,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000023 (7).png,adenocarcinoma,32,3
+33,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000023 (9).png,adenocarcinoma,33,3
+35,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000024 (6).png,adenocarcinoma,35,0
+37,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000024.png,adenocarcinoma,37,3
+39,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000026 (10).png,adenocarcinoma,39,4
+40,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000026 (3).png,adenocarcinoma,40,1
+41,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000027 (4).png,adenocarcinoma,41,1
+42,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000027 (6).png,adenocarcinoma,42,4
+44,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000029 (5).png,adenocarcinoma,44,3
+45,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000029 (9).png,adenocarcinoma,45,4
+46,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000030 (4).png,adenocarcinoma,46,2
+48,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000032 (8).png,adenocarcinoma,48,3
+49,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000033 (9).png,adenocarcinoma,49,0
+51,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000035 (4).png,adenocarcinoma,51,2
+53,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000035 (6).png,adenocarcinoma,53,0
+54,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000035 (8).png,adenocarcinoma,54,0
+55,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000036 (6).png,adenocarcinoma,55,4
+58,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000040 (3).png,adenocarcinoma,58,3
+59,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000040 (5).png,adenocarcinoma,59,1
+60,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000041 (2).png,adenocarcinoma,60,1
+61,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000041 (4).png,adenocarcinoma,61,4
+62,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000041 (7).png,adenocarcinoma,62,0
+63,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000041 (8).png,adenocarcinoma,63,3
+67,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000046 (5).png,adenocarcinoma,67,4
+68,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000048 (8).png,adenocarcinoma,68,0
+69,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000048.png,adenocarcinoma,69,1
+71,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000049 (9).png,adenocarcinoma,71,1
+72,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000050 (3).png,adenocarcinoma,72,3
+73,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000050 (5).png,adenocarcinoma,73,1
+74,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000050 (7).png,adenocarcinoma,74,4
+78,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000052 (10).png,adenocarcinoma,78,4
+79,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000054 (5).png,adenocarcinoma,79,3
+80,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000054 (6).png,adenocarcinoma,80,3
+81,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000054 (7).png,adenocarcinoma,81,0
+82,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000054.png,adenocarcinoma,82,1
+84,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000056 (7).png,adenocarcinoma,84,4
+85,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000057 (2).png,adenocarcinoma,85,3
+86,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000057.png,adenocarcinoma,86,1
+87,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000058 (4).png,adenocarcinoma,87,3
+89,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000059 (7).png,adenocarcinoma,89,3
+90,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000061.png,adenocarcinoma,90,1
+91,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000063 (3).png,adenocarcinoma,91,1
+92,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000063 (5).png,adenocarcinoma,92,3
+93,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000063 (7).png,adenocarcinoma,93,0
+94,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000065 (3).png,adenocarcinoma,94,4
+97,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000066 (10).png,adenocarcinoma,97,2
+98,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000066 (9).png,adenocarcinoma,98,0
+99,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000067 (10).png,adenocarcinoma,99,0
+102,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000068 (3).png,adenocarcinoma,102,2
+103,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000068 (9).png,adenocarcinoma,103,2
+104,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000069 (6).png,adenocarcinoma,104,4
+105,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000071 (3).png,adenocarcinoma,105,4
+106,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000072 (10).png,adenocarcinoma,106,2
+107,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000074 (5).png,adenocarcinoma,107,1
+108,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000075 (5).png,adenocarcinoma,108,0
+110,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000077 (9).png,adenocarcinoma,110,1
+111,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000078 (6).png,adenocarcinoma,111,3
+112,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000079 (6).png,adenocarcinoma,112,2
+116,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000083 (3).png,adenocarcinoma,116,4
+117,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000083 (6).png,adenocarcinoma,117,0
+118,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000084 (2).png,adenocarcinoma,118,4
+119,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000084 (3).png,adenocarcinoma,119,0
+120,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000084 (7).png,adenocarcinoma,120,0
+121,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000084.png,adenocarcinoma,121,4
+122,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000085 (10).png,adenocarcinoma,122,4
+124,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000085 (7).png,adenocarcinoma,124,2
+125,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000086 (3).png,adenocarcinoma,125,0
+126,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000086 (8).png,adenocarcinoma,126,1
+127,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000087 (4).png,adenocarcinoma,127,4
+128,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000087 (8).png,adenocarcinoma,128,1
+131,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000091 (3).png,adenocarcinoma,131,2
+132,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000091 (7).png,adenocarcinoma,132,0
+133,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000091.png,adenocarcinoma,133,1
+134,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000092 (10).png,adenocarcinoma,134,1
+135,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000093 (10).png,adenocarcinoma,135,4
+136,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000093 (4).png,adenocarcinoma,136,2
+137,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000093 (6).png,adenocarcinoma,137,1
+138,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000095 (6).png,adenocarcinoma,138,3
+139,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000095.png,adenocarcinoma,139,2
+140,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000096 (7).png,adenocarcinoma,140,2
+141,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000097 (10).png,adenocarcinoma,141,0
+142,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000097 (2).png,adenocarcinoma,142,0
+143,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000097 (3).png,adenocarcinoma,143,3
+144,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000098 (5).png,adenocarcinoma,144,2
+146,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000099 (7).png,adenocarcinoma,146,2
+147,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000100 (10).png,adenocarcinoma,147,1
+153,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000103 (9).png,adenocarcinoma,153,4
+154,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000104 (10).png,adenocarcinoma,154,4
+155,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000104 (4).png,adenocarcinoma,155,0
+156,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000105 (3).png,adenocarcinoma,156,4
+157,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000105 (4).png,adenocarcinoma,157,4
+159,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000106 (10).png,adenocarcinoma,159,3
+160,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000106 (4).png,adenocarcinoma,160,4
+161,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000106 (8).png,adenocarcinoma,161,3
+162,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000107 (9).png,adenocarcinoma,162,3
+163,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000118 (4).png,adenocarcinoma,163,3
+164,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000118 (6).png,adenocarcinoma,164,0
+165,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000119 (10).png,adenocarcinoma,165,0
+167,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000119 (5).png,adenocarcinoma,167,1
+168,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000119 (6).png,adenocarcinoma,168,4
+169,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000121 (10).png,adenocarcinoma,169,0
+170,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000121 (9).png,adenocarcinoma,170,1
+171,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000121.png,adenocarcinoma,171,1
+172,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000122.png,adenocarcinoma,172,1
+173,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad1.png,adenocarcinoma,173,3
+174,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad10.png,adenocarcinoma,174,1
+175,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad11.png,adenocarcinoma,175,3
+176,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad12.png,adenocarcinoma,176,4
+177,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad13.png,adenocarcinoma,177,2
+178,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad14.png,adenocarcinoma,178,2
+179,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad15.png,adenocarcinoma,179,3
+180,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad16.png,adenocarcinoma,180,4
+181,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad17.png,adenocarcinoma,181,2
+183,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad19.png,adenocarcinoma,183,3
+184,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad2.png,adenocarcinoma,184,2
+185,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad20.png,adenocarcinoma,185,4
+187,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad22.png,adenocarcinoma,186,2
+189,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad4.png,adenocarcinoma,187,4
+190,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad5.png,adenocarcinoma,188,1
+191,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad6.png,adenocarcinoma,189,3
+192,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad7.png,adenocarcinoma,190,2
+193,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad8.png,adenocarcinoma,191,1
+194,train/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/ad9.png,adenocarcinoma,192,2
+195,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000002.png,large.cell.carcinoma,193,2
+196,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000003 (3).png,large.cell.carcinoma,194,4
+197,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000003 (4).png,large.cell.carcinoma,195,2
+198,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000009 (3).png,large.cell.carcinoma,196,1
+199,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000009 (4).png,large.cell.carcinoma,197,1
+202,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000016 (3).png,large.cell.carcinoma,200,2
+203,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000016 (4).png,large.cell.carcinoma,201,4
+204,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000017.png,large.cell.carcinoma,202,3
+205,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000018 (2).png,large.cell.carcinoma,203,0
+206,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000019 (3).png,large.cell.carcinoma,204,0
+207,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000019 (4).png,large.cell.carcinoma,205,2
+208,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000020 (3).png,large.cell.carcinoma,206,4
+209,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000020 (4).png,large.cell.carcinoma,207,4
+210,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000021.png,large.cell.carcinoma,208,3
+212,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000024 (2).png,large.cell.carcinoma,210,2
+214,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000026.png,large.cell.carcinoma,212,4
+215,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000027 (2).png,large.cell.carcinoma,213,0
+216,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000027.png,large.cell.carcinoma,214,0
+217,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000031 (2).png,large.cell.carcinoma,215,1
+218,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000031.png,large.cell.carcinoma,216,0
+219,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000032.png,large.cell.carcinoma,217,0
+220,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000033 (3).png,large.cell.carcinoma,218,0
+223,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000039 (3).png,large.cell.carcinoma,220,4
+224,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000039 (4).png,large.cell.carcinoma,221,3
+225,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000040 (2).png,large.cell.carcinoma,222,2
+226,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000041 (3).png,large.cell.carcinoma,223,1
+228,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000041.png,large.cell.carcinoma,225,2
+229,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000042 (2).png,large.cell.carcinoma,226,3
+230,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000043 (2).png,large.cell.carcinoma,227,2
+232,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000046.png,large.cell.carcinoma,229,0
+233,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000047 (2).png,large.cell.carcinoma,230,3
+234,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000051.png,large.cell.carcinoma,231,3
+236,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000055 (4).png,large.cell.carcinoma,233,0
+237,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000055.png,large.cell.carcinoma,234,1
+238,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000056 (3).png,large.cell.carcinoma,235,4
+239,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000056 (4).png,large.cell.carcinoma,236,1
+241,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000057 (4).png,large.cell.carcinoma,238,0
+242,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000057.png,large.cell.carcinoma,239,1
+243,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000058 (3).png,large.cell.carcinoma,240,4
+245,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000059 (3).png,large.cell.carcinoma,242,0
+246,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000059 (4).png,large.cell.carcinoma,243,0
+247,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000060.png,large.cell.carcinoma,244,3
+248,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000062 (2).png,large.cell.carcinoma,245,3
+249,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000062 (3).png,large.cell.carcinoma,246,3
+250,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000062 (4).png,large.cell.carcinoma,247,1
+251,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000062.png,large.cell.carcinoma,248,1
+252,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000063 (2).png,large.cell.carcinoma,249,1
+253,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000063.png,large.cell.carcinoma,250,3
+255,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000066 (2).png,large.cell.carcinoma,252,3
+256,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000066.png,large.cell.carcinoma,253,2
+257,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000068 (3).png,large.cell.carcinoma,254,4
+259,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000068.png,large.cell.carcinoma,256,4
+260,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000069.png,large.cell.carcinoma,257,3
+261,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000071 (2).png,large.cell.carcinoma,258,2
+264,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000076 (3).png,large.cell.carcinoma,261,2
+265,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000076 (4).png,large.cell.carcinoma,262,1
+267,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000078 (3).png,large.cell.carcinoma,264,1
+268,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000078 (4).png,large.cell.carcinoma,265,0
+269,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000080.png,large.cell.carcinoma,266,2
+270,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000081.png,large.cell.carcinoma,267,3
+271,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000084 (2).png,large.cell.carcinoma,268,2
+272,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000084.png,large.cell.carcinoma,269,3
+275,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000093 (4).png,large.cell.carcinoma,272,4
+276,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000094 (2).png,large.cell.carcinoma,273,0
+277,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000094 (3).png,large.cell.carcinoma,274,4
+278,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000094 (4).png,large.cell.carcinoma,275,4
+279,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000095 (2).png,large.cell.carcinoma,276,4
+280,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000095 (3).png,large.cell.carcinoma,277,0
+281,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000095 (4).png,large.cell.carcinoma,278,2
+283,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000097 (2).png,large.cell.carcinoma,280,3
+284,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000097.png,large.cell.carcinoma,281,0
+285,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000098 (3).png,large.cell.carcinoma,282,4
+286,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000098 (4).png,large.cell.carcinoma,283,0
+287,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000104 (2).png,large.cell.carcinoma,284,1
+289,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000105 (2).png,large.cell.carcinoma,286,2
+290,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000105.png,large.cell.carcinoma,287,3
+291,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000106 (2).png,large.cell.carcinoma,288,1
+292,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000106.png,large.cell.carcinoma,289,3
+293,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000133.png,large.cell.carcinoma,290,2
+294,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000137.png,large.cell.carcinoma,291,2
+295,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000143.png,large.cell.carcinoma,292,2
+296,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000149.png,large.cell.carcinoma,293,1
+297,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000150.png,large.cell.carcinoma,294,4
+298,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000154.png,large.cell.carcinoma,295,4
+300,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000169.png,large.cell.carcinoma,297,1
+301,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000172.png,large.cell.carcinoma,298,3
+302,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000173.png,large.cell.carcinoma,299,2
+303,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/di1.png,large.cell.carcinoma,300,3
+306,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/l3.png,large.cell.carcinoma,302,4
+308,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/l5.png,large.cell.carcinoma,304,0
+309,train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/l6.png,large.cell.carcinoma,305,2
+334,train/normal/13 (2) - Copy.png,normal,315,3
+336,train/normal/13 - Copy (2) - Copy.png,normal,316,1
+338,train/normal/13 - Copy (3).png,normal,317,2
+339,train/normal/13 - Copy - Copy.png,normal,318,2
+342,train/normal/16 (2) - Copy.png,normal,319,2
+344,train/normal/16 - Copy (2) - Copy.png,normal,320,4
+346,train/normal/16 - Copy (3).png,normal,321,0
+350,train/normal/17 (2) - Copy.png,normal,322,3
+358,train/normal/18 (2) - Copy.png,normal,324,1
+366,train/normal/19 (2) - Copy.png,normal,325,2
+376,train/normal/2 - Copy (2) - Copy.png,normal,328,2
+382,train/normal/20 (2) - Copy.png,normal,329,4
+396,train/normal/3 - Copy (2) - Copy.png,normal,332,0
+402,train/normal/4 (2) - Copy.png,normal,333,3
+404,train/normal/4 - Copy (2) - Copy.png,normal,334,1
+410,train/normal/5 (2) - Copy.png,normal,335,1
+442,train/normal/n6 (2) - Copy.jpg,normal,342,3
+446,train/normal/n7 (2) - Copy.png,normal,343,3
+454,train/normal/n9 (2) - Copy.jpg,normal,344,1
+458,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000002 (4).png,squamous.cell.carcinoma,345,1
+459,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000002 (6).png,squamous.cell.carcinoma,346,0
+460,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000003.png,squamous.cell.carcinoma,347,0
+461,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000004 (4).png,squamous.cell.carcinoma,348,0
+462,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000004 (5).png,squamous.cell.carcinoma,349,2
+463,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000004 (7).png,squamous.cell.carcinoma,350,3
+464,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000006 (4).png,squamous.cell.carcinoma,351,3
+465,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000006.png,squamous.cell.carcinoma,352,2
+467,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000007.png,squamous.cell.carcinoma,354,2
+468,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000008 (3).png,squamous.cell.carcinoma,355,3
+469,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000009 (2).png,squamous.cell.carcinoma,356,0
+470,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000010 (6).png,squamous.cell.carcinoma,357,0
+472,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000015 (5).png,squamous.cell.carcinoma,359,2
+474,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000016 (3).png,squamous.cell.carcinoma,361,1
+475,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000017 (4).png,squamous.cell.carcinoma,362,0
+476,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000018 (6).png,squamous.cell.carcinoma,363,3
+478,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000024 (7).png,squamous.cell.carcinoma,365,0
+479,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000027 (2).png,squamous.cell.carcinoma,366,3
+480,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000028 (4).png,squamous.cell.carcinoma,367,3
+481,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000028 (5).png,squamous.cell.carcinoma,368,3
+482,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000028 (7).png,squamous.cell.carcinoma,369,1
+483,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000029 (4).png,squamous.cell.carcinoma,370,2
+484,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000030 (2).png,squamous.cell.carcinoma,371,4
+485,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000030 (5).png,squamous.cell.carcinoma,372,2
+486,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000030 (7).png,squamous.cell.carcinoma,373,1
+487,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000032.png,squamous.cell.carcinoma,374,3
+488,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000033.png,squamous.cell.carcinoma,375,1
+490,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000035.png,squamous.cell.carcinoma,377,0
+491,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000036 (4).png,squamous.cell.carcinoma,378,0
+492,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000037 (2).png,squamous.cell.carcinoma,379,2
+493,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000038 (2).png,squamous.cell.carcinoma,380,1
+494,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000038 (5).png,squamous.cell.carcinoma,381,1
+495,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000038 (7).png,squamous.cell.carcinoma,382,4
+496,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000041 (4).png,squamous.cell.carcinoma,383,4
+497,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000043 (3).png,squamous.cell.carcinoma,384,3
+498,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000043.png,squamous.cell.carcinoma,385,1
+499,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000044 (2).png,squamous.cell.carcinoma,386,4
+501,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000046 (5).png,squamous.cell.carcinoma,388,2
+502,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000046 (6).png,squamous.cell.carcinoma,389,3
+503,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000046 (7).png,squamous.cell.carcinoma,390,3
+505,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000048 (7).png,squamous.cell.carcinoma,392,3
+507,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000049 (3).png,squamous.cell.carcinoma,394,3
+508,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000050 (2).png,squamous.cell.carcinoma,395,3
+509,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000050 (6).png,squamous.cell.carcinoma,396,4
+510,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000051 (3).png,squamous.cell.carcinoma,397,2
+511,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000052 (4).png,squamous.cell.carcinoma,398,4
+512,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000053 (6).png,squamous.cell.carcinoma,399,0
+513,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000053.png,squamous.cell.carcinoma,400,1
+514,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000054 (3).png,squamous.cell.carcinoma,401,3
+516,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000055 (2).png,squamous.cell.carcinoma,403,4
+517,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000055 (3).png,squamous.cell.carcinoma,404,0
+519,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000056 (7).png,squamous.cell.carcinoma,406,2
+520,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000057 (3).png,squamous.cell.carcinoma,407,0
+521,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000057 (4).png,squamous.cell.carcinoma,408,4
+522,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000057 (5).png,squamous.cell.carcinoma,409,3
+523,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000057 (6).png,squamous.cell.carcinoma,410,1
+524,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000057 (7).png,squamous.cell.carcinoma,411,2
+525,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000058 (3).png,squamous.cell.carcinoma,412,3
+526,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000058 (5).png,squamous.cell.carcinoma,413,2
+527,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000058 (7).png,squamous.cell.carcinoma,414,4
+529,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000060 (2).png,squamous.cell.carcinoma,416,4
+530,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000062 (5).png,squamous.cell.carcinoma,417,0
+531,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000062 (7).png,squamous.cell.carcinoma,418,3
+533,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000063 (6).png,squamous.cell.carcinoma,420,1
+534,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000063.png,squamous.cell.carcinoma,421,3
+535,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000064 (4).png,squamous.cell.carcinoma,422,1
+536,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000065 (5).png,squamous.cell.carcinoma,423,4
+537,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000065 (7).png,squamous.cell.carcinoma,424,0
+539,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000066.png,squamous.cell.carcinoma,426,2
+540,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000067 (2).png,squamous.cell.carcinoma,427,2
+541,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000067 (3).png,squamous.cell.carcinoma,428,2
+542,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000067 (5).png,squamous.cell.carcinoma,429,1
+544,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000068 (4).png,squamous.cell.carcinoma,431,2
+545,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000069 (2).png,squamous.cell.carcinoma,432,2
+546,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000070 (2).png,squamous.cell.carcinoma,433,0
+547,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000070.png,squamous.cell.carcinoma,434,2
+548,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000071 (3).png,squamous.cell.carcinoma,435,0
+549,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000073 (6).png,squamous.cell.carcinoma,436,1
+550,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000074 (5).png,squamous.cell.carcinoma,437,0
+551,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000074 (6).png,squamous.cell.carcinoma,438,0
+553,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000075.png,squamous.cell.carcinoma,440,1
+554,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000077 (2).png,squamous.cell.carcinoma,441,3
+555,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000077 (4).png,squamous.cell.carcinoma,442,0
+556,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000077 (5).png,squamous.cell.carcinoma,443,4
+557,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000078 (5).png,squamous.cell.carcinoma,444,1
+558,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000078 (7).png,squamous.cell.carcinoma,445,1
+559,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000078.png,squamous.cell.carcinoma,446,2
+561,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000079 (7).png,squamous.cell.carcinoma,448,1
+562,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000079.png,squamous.cell.carcinoma,449,2
+563,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000081 (3).png,squamous.cell.carcinoma,450,3
+564,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000081 (6).png,squamous.cell.carcinoma,451,4
+566,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000082 (3).png,squamous.cell.carcinoma,453,3
+569,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000083 (5).png,squamous.cell.carcinoma,456,2
+570,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000083 (6).png,squamous.cell.carcinoma,457,1
+571,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000083 (7).png,squamous.cell.carcinoma,458,2
+572,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000084 (3).png,squamous.cell.carcinoma,459,4
+574,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000084 (7).png,squamous.cell.carcinoma,461,3
+575,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000085.png,squamous.cell.carcinoma,462,4
+576,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000088.png,squamous.cell.carcinoma,463,4
+577,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000089 (4).png,squamous.cell.carcinoma,464,4
+578,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000090 (6).png,squamous.cell.carcinoma,465,1
+579,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000091 (5).png,squamous.cell.carcinoma,466,0
+580,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000091 (7).png,squamous.cell.carcinoma,467,0
+582,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000094 (3).png,squamous.cell.carcinoma,469,4
+583,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000094.png,squamous.cell.carcinoma,470,4
+584,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000096 (2).png,squamous.cell.carcinoma,471,0
+585,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000096.png,squamous.cell.carcinoma,472,2
+588,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000100 (4).png,squamous.cell.carcinoma,475,3
+589,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000101 (3).png,squamous.cell.carcinoma,476,3
+590,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000103.png,squamous.cell.carcinoma,477,0
+592,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000104.png,squamous.cell.carcinoma,479,3
+593,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000105 (5).png,squamous.cell.carcinoma,480,0
+594,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000105 (7).png,squamous.cell.carcinoma,481,1
+595,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000106 (3).png,squamous.cell.carcinoma,482,1
+596,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000106 (4).png,squamous.cell.carcinoma,483,0
+597,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000106 (5).png,squamous.cell.carcinoma,484,4
+599,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000106 (7).png,squamous.cell.carcinoma,486,0
+601,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000120 (4).png,squamous.cell.carcinoma,488,2
+604,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000121.png,squamous.cell.carcinoma,491,1
+606,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000122.png,squamous.cell.carcinoma,493,4
+609,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/sq3.png,squamous.cell.carcinoma,496,4
+611,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/sq5.png,squamous.cell.carcinoma,497,1
+613,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000108 (7).png,adenocarcinoma,498,2
+614,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000108 (8).png,adenocarcinoma,499,2
+616,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000109 (4).png,adenocarcinoma,501,0
+617,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000109 (8).png,adenocarcinoma,502,0
+618,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000110 (7).png,adenocarcinoma,503,1
+619,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000111 (2).png,adenocarcinoma,504,1
+620,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000112 (2).png,adenocarcinoma,505,3
+621,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000112 (9).png,adenocarcinoma,506,2
+622,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000113 (3).png,adenocarcinoma,507,0
+623,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000113.png,adenocarcinoma,508,2
+624,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000114 (10).png,adenocarcinoma,509,3
+625,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000114.png,adenocarcinoma,510,2
+626,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000115 (2).png,adenocarcinoma,511,0
+627,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000115 (5).png,adenocarcinoma,512,2
+628,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000115 (9).png,adenocarcinoma,513,4
+629,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000115.png,adenocarcinoma,514,3
+630,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000116 (3).png,adenocarcinoma,515,1
+631,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000116 (5).png,adenocarcinoma,516,2
+632,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000116 (8).png,adenocarcinoma,517,2
+633,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000116 (9).png,adenocarcinoma,518,2
+634,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000117 (6).png,adenocarcinoma,519,2
+635,valid/adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib/000117.png,adenocarcinoma,520,4
+636,valid/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000108 (2).png,large.cell.carcinoma,521,2
+638,valid/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000109.png,large.cell.carcinoma,523,2
+639,valid/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000110 (2).png,large.cell.carcinoma,524,3
+640,valid/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000110.png,large.cell.carcinoma,525,1
+641,valid/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000111 (2).png,large.cell.carcinoma,526,4
+643,valid/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000112.png,large.cell.carcinoma,528,0
+644,valid/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000113 (2).png,large.cell.carcinoma,529,3
+645,valid/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000113.png,large.cell.carcinoma,530,4
+646,valid/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000114.png,large.cell.carcinoma,531,1
+647,valid/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000115 (3).png,large.cell.carcinoma,532,1
+648,valid/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000115.png,large.cell.carcinoma,533,2
+649,valid/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000116.png,large.cell.carcinoma,534,4
+650,valid/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000118 (2).png,large.cell.carcinoma,535,1
+651,valid/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000120.png,large.cell.carcinoma,536,0
+655,valid/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/000130.png,large.cell.carcinoma,540,0
+670,valid/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000108 (3).png,squamous.cell.carcinoma,545,1
+671,valid/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000110 (6).png,squamous.cell.carcinoma,546,4
+672,valid/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000111.png,squamous.cell.carcinoma,547,3
+673,valid/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000112.png,squamous.cell.carcinoma,548,2
+674,valid/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000114 (4).png,squamous.cell.carcinoma,549,1
+675,valid/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000114 (6).png,squamous.cell.carcinoma,550,3
+676,valid/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000115 (2).png,squamous.cell.carcinoma,551,3
+677,valid/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000115 (5).png,squamous.cell.carcinoma,552,2
+678,valid/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000116 (2).png,squamous.cell.carcinoma,553,2
+679,valid/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000117 (4).png,squamous.cell.carcinoma,554,0
+680,valid/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000117 (6).png,squamous.cell.carcinoma,555,1
+681,valid/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000118 (4).png,squamous.cell.carcinoma,556,3
+682,valid/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000118 (5).png,squamous.cell.carcinoma,557,0
+683,valid/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000119 (5).png,squamous.cell.carcinoma,558,2
+684,valid/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/000119.png,squamous.cell.carcinoma,559,0
+685,test/adenocarcinoma/000108 (3).png,adenocarcinoma,560,2
+686,test/adenocarcinoma/000109 (2).png,adenocarcinoma,561,0
+688,test/adenocarcinoma/000109 (5).png,adenocarcinoma,563,1
+690,test/adenocarcinoma/000113 (7).png,adenocarcinoma,565,4
+691,test/adenocarcinoma/000114 (5).png,adenocarcinoma,566,0
+693,test/adenocarcinoma/000115 (4).png,adenocarcinoma,568,4
+696,test/adenocarcinoma/000116 (5).png,adenocarcinoma,571,1
+697,test/adenocarcinoma/000116 (7).png,adenocarcinoma,572,0
+698,test/adenocarcinoma/000116 (9).png,adenocarcinoma,573,2
+699,test/adenocarcinoma/000117 (4).png,adenocarcinoma,574,3
+700,test/adenocarcinoma/000117 (8).png,adenocarcinoma,575,1
+701,test/adenocarcinoma/000117.png,adenocarcinoma,576,2
+703,test/adenocarcinoma/000118 (7).png,adenocarcinoma,578,4
+705,test/adenocarcinoma/000119 (5).png,adenocarcinoma,580,2
+706,test/adenocarcinoma/000119 (6).png,adenocarcinoma,581,0
+707,test/adenocarcinoma/000120.png,adenocarcinoma,582,0
+708,test/adenocarcinoma/000121 (6).png,adenocarcinoma,583,1
+711,test/adenocarcinoma/000122 (4).png,adenocarcinoma,586,2
+712,test/adenocarcinoma/000122.png,adenocarcinoma,587,2
+713,test/adenocarcinoma/000123 (4).png,adenocarcinoma,588,1
+714,test/adenocarcinoma/000123 (6).png,adenocarcinoma,589,1
+715,test/adenocarcinoma/000123 (9).png,adenocarcinoma,590,3
+717,test/adenocarcinoma/000124 (9).png,adenocarcinoma,592,1
+718,test/adenocarcinoma/000125 (2).png,adenocarcinoma,593,3
+719,test/adenocarcinoma/000125 (4).png,adenocarcinoma,594,4
+720,test/adenocarcinoma/000125 (5).png,adenocarcinoma,595,4
+721,test/adenocarcinoma/000125 (6).png,adenocarcinoma,596,1
+722,test/adenocarcinoma/000125 (8).png,adenocarcinoma,597,4
+723,test/adenocarcinoma/000126 (6).png,adenocarcinoma,598,1
+724,test/adenocarcinoma/000127 (5).png,adenocarcinoma,599,4
+725,test/adenocarcinoma/000128 (5).png,adenocarcinoma,600,2
+726,test/adenocarcinoma/000129 (5).png,adenocarcinoma,601,2
+727,test/adenocarcinoma/000129.png,adenocarcinoma,602,0
+729,test/adenocarcinoma/000131 (2).png,adenocarcinoma,604,0
+730,test/adenocarcinoma/000132 (2).png,adenocarcinoma,605,2
+731,test/adenocarcinoma/000132 (7).png,adenocarcinoma,606,3
+732,test/adenocarcinoma/000132 (8).png,adenocarcinoma,607,3
+733,test/adenocarcinoma/000132.png,adenocarcinoma,608,3
+734,test/adenocarcinoma/000133 (2).png,adenocarcinoma,609,3
+735,test/adenocarcinoma/000133 (4).png,adenocarcinoma,610,0
+738,test/adenocarcinoma/000134.png,adenocarcinoma,613,4
+739,test/adenocarcinoma/000135 (5).png,adenocarcinoma,614,4
+740,test/adenocarcinoma/000136 (2).png,adenocarcinoma,615,4
+742,test/adenocarcinoma/000137 (2).png,adenocarcinoma,617,3
+743,test/adenocarcinoma/000137 (4).png,adenocarcinoma,618,0
+744,test/adenocarcinoma/000137 (8).png,adenocarcinoma,619,1
+746,test/adenocarcinoma/000138 (9).png,adenocarcinoma,621,0
+747,test/adenocarcinoma/000139 (5).png,adenocarcinoma,622,1
+748,test/adenocarcinoma/000139 (6).png,adenocarcinoma,623,0
+750,test/adenocarcinoma/000139 (9).png,adenocarcinoma,625,2
+751,test/adenocarcinoma/000139.png,adenocarcinoma,626,3
+752,test/adenocarcinoma/000140.png,adenocarcinoma,627,0
+753,test/adenocarcinoma/000141 (2).png,adenocarcinoma,628,0
+754,test/adenocarcinoma/000142.png,adenocarcinoma,629,3
+755,test/adenocarcinoma/000143 (5).png,adenocarcinoma,630,4
+756,test/adenocarcinoma/000143 (6).png,adenocarcinoma,631,4
+757,test/adenocarcinoma/000144 (2).png,adenocarcinoma,632,1
+758,test/adenocarcinoma/000144 (5).png,adenocarcinoma,633,4
+759,test/adenocarcinoma/000145 (9).png,adenocarcinoma,634,1
+760,test/adenocarcinoma/000146 (3).png,adenocarcinoma,635,0
+762,test/adenocarcinoma/000147.png,adenocarcinoma,637,0
+763,test/adenocarcinoma/000148 (3).png,adenocarcinoma,638,4
+764,test/adenocarcinoma/000148 (6).png,adenocarcinoma,639,1
+765,test/adenocarcinoma/000148 (8).png,adenocarcinoma,640,2
+766,test/adenocarcinoma/000148.png,adenocarcinoma,641,1
+767,test/adenocarcinoma/000149 (2).png,adenocarcinoma,642,0
+768,test/adenocarcinoma/000149 (4).png,adenocarcinoma,643,3
+769,test/adenocarcinoma/000149 (7).png,adenocarcinoma,644,4
+770,test/adenocarcinoma/000151 (5).png,adenocarcinoma,645,1
+771,test/adenocarcinoma/000153 (5).png,adenocarcinoma,646,1
+773,test/adenocarcinoma/000155.png,adenocarcinoma,647,4
+774,test/adenocarcinoma/000156 (4).png,adenocarcinoma,648,4
+775,test/adenocarcinoma/000157 (5).png,adenocarcinoma,649,1
+777,test/adenocarcinoma/000158 (2).png,adenocarcinoma,651,2
+778,test/adenocarcinoma/000158 (3).png,adenocarcinoma,652,0
+780,test/adenocarcinoma/000158 (6).png,adenocarcinoma,654,3
+781,test/adenocarcinoma/000158.png,adenocarcinoma,655,1
+782,test/adenocarcinoma/000160 (4).png,adenocarcinoma,656,3
+783,test/adenocarcinoma/000160 (6).png,adenocarcinoma,657,4
+784,test/adenocarcinoma/000161 (4).png,adenocarcinoma,658,2
+786,test/adenocarcinoma/000163 (3).png,adenocarcinoma,660,3
+787,test/adenocarcinoma/000163 (7).png,adenocarcinoma,661,0
+788,test/adenocarcinoma/000164 (5).png,adenocarcinoma,662,2
+789,test/adenocarcinoma/000165 (6).png,adenocarcinoma,663,3
+790,test/adenocarcinoma/000166 (2).png,adenocarcinoma,664,4
+791,test/adenocarcinoma/000166 (3).png,adenocarcinoma,665,2
+792,test/adenocarcinoma/000166 (4).png,adenocarcinoma,666,2
+793,test/adenocarcinoma/000167 (3).png,adenocarcinoma,667,1
+795,test/adenocarcinoma/000168 (3).png,adenocarcinoma,669,0
+796,test/adenocarcinoma/000171 (5).png,adenocarcinoma,670,2
+797,test/adenocarcinoma/000171.png,adenocarcinoma,671,3
+798,test/adenocarcinoma/000172 (3).png,adenocarcinoma,672,1
+800,test/adenocarcinoma/000173 (7).png,adenocarcinoma,674,1
+801,test/adenocarcinoma/000174 (4).png,adenocarcinoma,675,3
+802,test/adenocarcinoma/000176 (2).png,adenocarcinoma,676,0
+803,test/adenocarcinoma/000177 (4).png,adenocarcinoma,677,0
+804,test/adenocarcinoma/000177.png,adenocarcinoma,678,3
+805,test/large.cell.carcinoma/000108.png,large.cell.carcinoma,679,4
+806,test/large.cell.carcinoma/000110.png,large.cell.carcinoma,680,4
+807,test/large.cell.carcinoma/000111 (2).png,large.cell.carcinoma,681,3
+808,test/large.cell.carcinoma/000111.png,large.cell.carcinoma,682,0
+810,test/large.cell.carcinoma/000113.png,large.cell.carcinoma,684,3
+812,test/large.cell.carcinoma/000115 (2).png,large.cell.carcinoma,686,0
+813,test/large.cell.carcinoma/000116.png,large.cell.carcinoma,687,4
+814,test/large.cell.carcinoma/000118.png,large.cell.carcinoma,688,0
+815,test/large.cell.carcinoma/000120.png,large.cell.carcinoma,689,1
+816,test/large.cell.carcinoma/000122.png,large.cell.carcinoma,690,1
+817,test/large.cell.carcinoma/000123.png,large.cell.carcinoma,691,2
+820,test/large.cell.carcinoma/000127 (2).png,large.cell.carcinoma,694,1
+821,test/large.cell.carcinoma/000128 (2).png,large.cell.carcinoma,695,1
+822,test/large.cell.carcinoma/000128.png,large.cell.carcinoma,696,3
+823,test/large.cell.carcinoma/000130.png,large.cell.carcinoma,697,4
+825,test/large.cell.carcinoma/000131.png,large.cell.carcinoma,699,2
+826,test/large.cell.carcinoma/000132 (2).png,large.cell.carcinoma,700,1
+827,test/large.cell.carcinoma/000133 (2).png,large.cell.carcinoma,701,4
+828,test/large.cell.carcinoma/000133.png,large.cell.carcinoma,702,3
+829,test/large.cell.carcinoma/000136 (2).png,large.cell.carcinoma,703,2
+830,test/large.cell.carcinoma/000137.png,large.cell.carcinoma,704,3
+832,test/large.cell.carcinoma/000141.png,large.cell.carcinoma,706,2
+833,test/large.cell.carcinoma/000143.png,large.cell.carcinoma,707,2
+835,test/large.cell.carcinoma/000148 (2).png,large.cell.carcinoma,709,4
+836,test/large.cell.carcinoma/000148.png,large.cell.carcinoma,710,4
+838,test/large.cell.carcinoma/000150.png,large.cell.carcinoma,712,0
+839,test/large.cell.carcinoma/000154 (2).png,large.cell.carcinoma,713,0
+840,test/large.cell.carcinoma/000154.png,large.cell.carcinoma,714,4
+841,test/large.cell.carcinoma/000155.png,large.cell.carcinoma,715,1
+842,test/large.cell.carcinoma/000158.png,large.cell.carcinoma,716,3
+843,test/large.cell.carcinoma/000159 (2).png,large.cell.carcinoma,717,3
+844,test/large.cell.carcinoma/000159.png,large.cell.carcinoma,718,1
+845,test/large.cell.carcinoma/000160.png,large.cell.carcinoma,719,0
+846,test/large.cell.carcinoma/000162.png,large.cell.carcinoma,720,3
+847,test/large.cell.carcinoma/000163.png,large.cell.carcinoma,721,1
+849,test/large.cell.carcinoma/000170.png,large.cell.carcinoma,723,0
+850,test/large.cell.carcinoma/000171.png,large.cell.carcinoma,724,2
+851,test/large.cell.carcinoma/000172 (2).png,large.cell.carcinoma,725,4
+852,test/large.cell.carcinoma/000172.png,large.cell.carcinoma,726,1
+853,test/large.cell.carcinoma/000173 (2).png,large.cell.carcinoma,727,3
+854,test/large.cell.carcinoma/000173.png,large.cell.carcinoma,728,0
+856,test/normal/10 (2) - Copy.png,normal,306,3
+858,test/normal/10 - Copy (2) - Copy.png,normal,307,0
+860,test/normal/10 - Copy (3).png,normal,308,1
+864,test/normal/11 (2) - Copy.png,normal,309,1
+866,test/normal/11 - Copy (2) - Copy.png,normal,310,0
+872,test/normal/12 (2) - Copy.png,normal,311,3
+874,test/normal/12 - Copy (2) - Copy.png,normal,312,1
+876,test/normal/12 - Copy (3).png,normal,313,2
+877,test/normal/12 - Copy - Copy.png,normal,314,0
+879,test/normal/21.png,normal,730,4
+880,test/normal/22.png,normal,731,0
+881,test/normal/23.png,normal,732,2
+882,test/normal/24 - Copy.png,normal,733,4
+887,test/normal/6 - Copy (2) - Copy.png,normal,337,0
+892,test/normal/7 (2) - Copy.png,normal,338,4
+894,test/normal/7 - Copy (2) - Copy.png,normal,339,3
+900,test/normal/8 (2) - Copy.png,normal,340,4
+902,test/normal/8 - Copy (2) - Copy.png,normal,341,0
+908,test/normal/normal - Copy.png,normal,735,2
+909,test/normal/normal.png,normal,736,4
+910,test/squamous.cell.carcinoma/000108 (6).png,squamous.cell.carcinoma,737,3
+912,test/squamous.cell.carcinoma/000111.png,squamous.cell.carcinoma,739,0
+913,test/squamous.cell.carcinoma/000112.png,squamous.cell.carcinoma,740,0
+915,test/squamous.cell.carcinoma/000114 (3).png,squamous.cell.carcinoma,742,3
+916,test/squamous.cell.carcinoma/000115 (4).png,squamous.cell.carcinoma,743,1
+917,test/squamous.cell.carcinoma/000115 (5).png,squamous.cell.carcinoma,744,1
+918,test/squamous.cell.carcinoma/000116 (5).png,squamous.cell.carcinoma,745,3
+920,test/squamous.cell.carcinoma/000117 (3).png,squamous.cell.carcinoma,747,4
+921,test/squamous.cell.carcinoma/000117 (5).png,squamous.cell.carcinoma,748,0
+922,test/squamous.cell.carcinoma/000118 (3).png,squamous.cell.carcinoma,749,4
+924,test/squamous.cell.carcinoma/000119 (4).png,squamous.cell.carcinoma,751,2
+925,test/squamous.cell.carcinoma/000119.png,squamous.cell.carcinoma,752,2
+926,test/squamous.cell.carcinoma/000120 (2).png,squamous.cell.carcinoma,753,2
+927,test/squamous.cell.carcinoma/000120 (3).png,squamous.cell.carcinoma,754,3
+929,test/squamous.cell.carcinoma/000121 (5).png,squamous.cell.carcinoma,756,1
+930,test/squamous.cell.carcinoma/000121.png,squamous.cell.carcinoma,757,1
+931,test/squamous.cell.carcinoma/000122 (6).png,squamous.cell.carcinoma,758,0
+932,test/squamous.cell.carcinoma/000122.png,squamous.cell.carcinoma,759,3
+933,test/squamous.cell.carcinoma/000124 (4).png,squamous.cell.carcinoma,760,4
+934,test/squamous.cell.carcinoma/000124 (5).png,squamous.cell.carcinoma,761,3
+935,test/squamous.cell.carcinoma/000124.png,squamous.cell.carcinoma,762,4
+936,test/squamous.cell.carcinoma/000125 (2).png,squamous.cell.carcinoma,763,4
+937,test/squamous.cell.carcinoma/000125 (6).png,squamous.cell.carcinoma,764,4
+938,test/squamous.cell.carcinoma/000125.png,squamous.cell.carcinoma,765,0
+939,test/squamous.cell.carcinoma/000126 (4).png,squamous.cell.carcinoma,766,3
+940,test/squamous.cell.carcinoma/000127 (2).png,squamous.cell.carcinoma,767,2
+941,test/squamous.cell.carcinoma/000127 (6).png,squamous.cell.carcinoma,768,1
+943,test/squamous.cell.carcinoma/000129 (2).png,squamous.cell.carcinoma,770,2
+944,test/squamous.cell.carcinoma/000129 (6).png,squamous.cell.carcinoma,771,2
+945,test/squamous.cell.carcinoma/000130 (4).png,squamous.cell.carcinoma,772,4
+948,test/squamous.cell.carcinoma/000133 (2).png,squamous.cell.carcinoma,775,4
+949,test/squamous.cell.carcinoma/000133 (3).png,squamous.cell.carcinoma,776,4
+950,test/squamous.cell.carcinoma/000134 (5).png,squamous.cell.carcinoma,777,3
+951,test/squamous.cell.carcinoma/000135 (4).png,squamous.cell.carcinoma,778,2
+952,test/squamous.cell.carcinoma/000135.png,squamous.cell.carcinoma,779,1
+953,test/squamous.cell.carcinoma/000136 (4).png,squamous.cell.carcinoma,780,4
+954,test/squamous.cell.carcinoma/000136 (6).png,squamous.cell.carcinoma,781,0
+955,test/squamous.cell.carcinoma/000137 (3).png,squamous.cell.carcinoma,782,0
+957,test/squamous.cell.carcinoma/000139 (4).png,squamous.cell.carcinoma,784,4
+958,test/squamous.cell.carcinoma/000139 (5).png,squamous.cell.carcinoma,785,4
+959,test/squamous.cell.carcinoma/000139 (6).png,squamous.cell.carcinoma,786,2
+960,test/squamous.cell.carcinoma/000141 (2).png,squamous.cell.carcinoma,787,1
+961,test/squamous.cell.carcinoma/000141 (4).png,squamous.cell.carcinoma,788,2
+962,test/squamous.cell.carcinoma/000142 (5).png,squamous.cell.carcinoma,789,1
+964,test/squamous.cell.carcinoma/000144 (5).png,squamous.cell.carcinoma,791,0
+965,test/squamous.cell.carcinoma/000145 (6).png,squamous.cell.carcinoma,792,4
+966,test/squamous.cell.carcinoma/000146 (6).png,squamous.cell.carcinoma,793,1
+967,test/squamous.cell.carcinoma/000148 (3).png,squamous.cell.carcinoma,794,4
+969,test/squamous.cell.carcinoma/000149 (4).png,squamous.cell.carcinoma,796,4
+970,test/squamous.cell.carcinoma/000151 (6).png,squamous.cell.carcinoma,797,1
+972,test/squamous.cell.carcinoma/000153 (3).png,squamous.cell.carcinoma,799,0
+973,test/squamous.cell.carcinoma/000153 (4).png,squamous.cell.carcinoma,800,4
+974,test/squamous.cell.carcinoma/000153.png,squamous.cell.carcinoma,801,4
+976,test/squamous.cell.carcinoma/000154 (3).png,squamous.cell.carcinoma,802,3
+977,test/squamous.cell.carcinoma/000154 (4).png,squamous.cell.carcinoma,803,3
+978,test/squamous.cell.carcinoma/000155 (3).png,squamous.cell.carcinoma,804,0
+982,test/squamous.cell.carcinoma/000158 (4).png,squamous.cell.carcinoma,808,1
+983,test/squamous.cell.carcinoma/000158 (6).png,squamous.cell.carcinoma,809,2
+984,test/squamous.cell.carcinoma/000159 (5).png,squamous.cell.carcinoma,810,3
+985,test/squamous.cell.carcinoma/000160 (4).png,squamous.cell.carcinoma,811,4
+986,test/squamous.cell.carcinoma/000162 (2).png,squamous.cell.carcinoma,812,0
+987,test/squamous.cell.carcinoma/000162.png,squamous.cell.carcinoma,813,0
+988,test/squamous.cell.carcinoma/000163 (4).png,squamous.cell.carcinoma,814,2
+990,test/squamous.cell.carcinoma/000163 (6).png,squamous.cell.carcinoma,816,1
+992,test/squamous.cell.carcinoma/000166 (4).png,squamous.cell.carcinoma,818,1
+993,test/squamous.cell.carcinoma/000167 (2).png,squamous.cell.carcinoma,819,1
+994,test/squamous.cell.carcinoma/000168 (2).png,squamous.cell.carcinoma,820,2
+999,test/squamous.cell.carcinoma/000177 (3).png,squamous.cell.carcinoma,825,2

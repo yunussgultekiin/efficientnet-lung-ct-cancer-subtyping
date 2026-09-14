@@ -1,0 +1,3 @@
+relative_path_a,class_a,relative_path_b,class_b
+train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/l4.png,large.cell.carcinoma,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/sq2.png,squamous.cell.carcinoma
+train/large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa/l4.png,large.cell.carcinoma,train/squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa/sq2.png,squamous.cell.carcinoma

@@ -40,7 +40,7 @@ class Predictor:
             probabilities={
                 class_name: float(probability)
                 for class_name, probability in zip(CLASS_NAMES, probabilities.tolist())
-            },
+            }
         )
 
 class BatchPredictor:

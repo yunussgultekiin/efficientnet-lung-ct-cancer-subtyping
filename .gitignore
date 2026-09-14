@@ -22,7 +22,10 @@ data/lung-cancer-dataset/.cache/huggingface/
 # Dataset itself (hosted on Hugging Face, not pushed here)
 data/lung-cancer-dataset/Data-20240107T052410Z-001.zip
 data/raw/
-data/processed/
+
+# Cross-validation / hyperparameter-tuning intermediates (large, reproducible from data/splits/)
+outputs/models/cv/
+outputs/optuna/
 
 # OS / editor
 .DS_Store

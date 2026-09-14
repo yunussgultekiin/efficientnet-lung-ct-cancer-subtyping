@@ -1,0 +1,12 @@
+# Core ML stack. torch/torchvision pull GPU-enabled wheels automatically on
+# Linux via PyPI when a CUDA-capable driver is present; if you need a specific
+# CUDA toolkit build, install torch/torchvision manually first following
+# https://pytorch.org/get-started/locally/ before running this file.
+torch==2.13.0
+torchvision==0.28.0
+torchinfo==1.8.0
+scikit-learn==1.9.0
+pillow==12.3.0
+imagehash==4.3.2
+numpy==2.3.5
+matplotlib==3.11.1

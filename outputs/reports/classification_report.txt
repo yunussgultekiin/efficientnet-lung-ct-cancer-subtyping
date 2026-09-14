@@ -1,10 +1,31 @@
+Train (dev pool) vs held-out test
+========================================
+train accuracy=0.9788 macro_f1=0.9709
+test  accuracy=0.9333 macro_f1=0.8863
+gap   accuracy=+0.0454 macro_f1=+0.0846
+
+Train (dev pool) classification report
+----------------------------------------
                          precision    recall  f1-score   support
 
-         adenocarcinoma       0.91      0.80      0.85       120
-   large.cell.carcinoma       0.93      0.84      0.89        51
-                 normal       1.00      0.98      0.99        54
-squamous.cell.carcinoma       0.79      0.97      0.87        90
+         adenocarcinoma       0.96      1.00      0.98       268
+   large.cell.carcinoma       1.00      0.98      0.99       147
+                 normal       0.95      0.92      0.94        39
+squamous.cell.carcinoma       1.00      0.97      0.98       205
 
-               accuracy                           0.89       315
-              macro avg       0.91      0.90      0.90       315
-           weighted avg       0.89      0.89      0.89       315
+               accuracy                           0.98       659
+              macro avg       0.98      0.97      0.97       659
+           weighted avg       0.98      0.98      0.98       659
+
+Held-out test classification report
+----------------------------------------
+                         precision    recall  f1-score   support
+
+         adenocarcinoma       0.88      0.99      0.93        67
+   large.cell.carcinoma       0.97      0.89      0.93        37
+                 normal       0.86      0.60      0.71        10
+squamous.cell.carcinoma       1.00      0.96      0.98        51
+
+               accuracy                           0.93       165
+              macro avg       0.93      0.86      0.89       165
+           weighted avg       0.94      0.93      0.93       165

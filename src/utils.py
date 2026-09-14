@@ -45,40 +45,36 @@ class TrainingHistory:
         train_loss: float,
         train_accuracy: float,
         train_f1_macro: float,
-        valid_loss: float,
-        valid_accuracy: float,
-        valid_f1_macro: float,
+        valid_loss: float | None = None,
+        valid_accuracy: float | None = None,
+        valid_f1_macro: float | None = None
     ) -> None:
         self.train_loss.append(train_loss)
         self.train_accuracy.append(train_accuracy)
         self.train_f1_macro.append(train_f1_macro)
-        self.valid_loss.append(valid_loss)
-        self.valid_accuracy.append(valid_accuracy)
-        self.valid_f1_macro.append(valid_f1_macro)
+        if valid_loss is not None:
+            self.valid_loss.append(valid_loss)
+            self.valid_accuracy.append(valid_accuracy)
+            self.valid_f1_macro.append(valid_f1_macro)
 
     def plot(self, output_dir: Path) -> None:
         output_dir.mkdir(parents=True, exist_ok=True)
         epochs = range(1, len(self.train_loss) + 1)
 
         fig, axes = plt.subplots(1, 3, figsize=(18, 5))
+        panels = (
+            (axes[0], "Loss", self.train_loss, self.valid_loss),
+            (axes[1], "Accuracy", self.train_accuracy, self.valid_accuracy),
+            (axes[2], "F1 (macro)", self.train_f1_macro, self.valid_f1_macro)
+        )
 
-        axes[0].plot(epochs, self.train_loss, label="train")
-        axes[0].plot(epochs, self.valid_loss, label="valid")
-        axes[0].set_title("Loss")
-        axes[0].set_xlabel("epoch")
-        axes[0].legend()
-
-        axes[1].plot(epochs, self.train_accuracy, label="train")
-        axes[1].plot(epochs, self.valid_accuracy, label="valid")
-        axes[1].set_title("Accuracy")
-        axes[1].set_xlabel("epoch")
-        axes[1].legend()
-
-        axes[2].plot(epochs, self.train_f1_macro, label="train")
-        axes[2].plot(epochs, self.valid_f1_macro, label="valid")
-        axes[2].set_title("F1 (macro)")
-        axes[2].set_xlabel("epoch")
-        axes[2].legend()
+        for ax, title, train_values, valid_values in panels:
+            ax.plot(epochs, train_values, label="train")
+            if valid_values:
+                ax.plot(epochs, valid_values, label="valid")
+            ax.set_title(title)
+            ax.set_xlabel("epoch")
+            ax.legend()
 
         fig.tight_layout()
         fig.savefig(output_dir / "training_history.png")

@@ -1,0 +1,17 @@
+5-fold cross-validation summary
+========================================
+
+fold 0: best_epoch=20 accuracy=0.9318 f1_macro=0.9490
+fold 1: best_epoch=25 accuracy=0.9848 f1_macro=0.9776
+fold 2: best_epoch=30 accuracy=0.9545 f1_macro=0.9605
+fold 3: best_epoch=21 accuracy=0.9621 f1_macro=0.9342
+fold 4: best_epoch=22 accuracy=0.9771 f1_macro=0.9689
+
+accuracy: 0.9621 +/- 0.0185
+f1_macro: 0.9580 +/- 0.0152
+
+per-class f1 (mean +/- std across folds):
+  adenocarcinoma: 0.9595 +/- 0.0221
+  large.cell.carcinoma: 0.9654 +/- 0.0295
+  normal: 0.9396 +/- 0.0645
+  squamous.cell.carcinoma: 0.9676 +/- 0.0286
