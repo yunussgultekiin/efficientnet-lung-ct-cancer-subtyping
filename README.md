@@ -1,12 +1,14 @@
-# Lung Cancer Classification — EfficientNet-B0
+# EfficientNet Lung CT Cancer Subtyping
 
-> **This is a machine learning research/portfolio project, not a medical device.** It is not intended for clinical use, diagnosis, or any healthcare decision-making, and has not been validated for that purpose. Predictions must never be used to make or support real medical decisions without review by a qualified pathologist/radiologist.
+> **This is a machine learning research project, not a medical device.** It is not intended for clinical use, diagnosis, or any healthcare decision-making, and has not been validated for that purpose. Predictions must never be used to make or support real medical decisions without review by a qualified pathologist/radiologist.
 
 Fine-tuned **EfficientNet-B0** model that classifies lung CT-scan images into four categories: `adenocarcinoma`, `large.cell.carcinoma`, `normal`, `squamous.cell.carcinoma`.
 
 ## Setup
 
 ```bash
+git clone <repository-url>
+cd efficientnet-lung-ct-cancer-subtyping
 ./run_training.sh
 ```
 
@@ -154,7 +156,7 @@ CLASS_NAMES = ["adenocarcinoma", "large.cell.carcinoma", "normal", "squamous.cel
 
 checkpoint_path = hf_hub_download(
     repo_id="yunussgultekiin/lung-cancer-efficientnet-b0",
-    filename="model/best_efficientnet_b0.pt"
+    filename="outputs/models/best_efficientnet_b0.pt"
 )
 
 model = efficientnet_b0(weights=None)
